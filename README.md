@@ -21,3 +21,4 @@ WHEN I reach the end of the tutorial
 THEN I find a section about the author and a link to the author’s GitHub profile
 
 # Gist
+https://gist.github.com/shane-sepeda/a100d837b7b46e861f6409cede50a3c9
