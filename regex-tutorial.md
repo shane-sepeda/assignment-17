@@ -1,10 +1,10 @@
 # Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+This tutorial serves as a resource for regular expressions.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A regular expression (shortened as regex or regexp; sometimes referred to as rational expression is a sequence of characters that specifies a search pattern in text. 
 
 ## Table of Contents
 
@@ -46,4 +46,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Written by Shane Sepeda. https://github.com/shane-sepeda
