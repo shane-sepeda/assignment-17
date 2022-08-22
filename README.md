@@ -20,8 +20,4 @@ THEN I find a detailed explanation of what a specific component of the regex doe
 WHEN I reach the end of the tutorial
 THEN I find a section about the author and a link to the author’s GitHub profile
 
-# Assets
-
-# Screenshot
-
-# Repository
+# Gist
