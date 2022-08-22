@@ -24,6 +24,8 @@ A regular expression (shortened as regex or regexp; sometimes referred to as rat
 
 ### Anchors
 
+Anchors are regex tokens that don't match any characters but that say or assert something about the string or the matching process.
+
 ^The        matches any string that starts with The ->
 end$        matches a string that ends with end
 ^The end$   exact string match (starts and ends with The end)
@@ -31,6 +33,8 @@ roar        matches any string that has the text roar in it
 
 
 ### Quantifiers
+
+Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found.
 
 abc*        matches a string that has ab followed by zero or more c ->
 abc+        matches a string that has ab followed by one or more c
@@ -47,6 +51,8 @@ a(b|c)     matches a string that has a followed by b or c (and captures b or c) 
 a[bc]      same as previous, but without capturing b or c
 
 ### Character Classes
+
+A character class is a set of characters enclosed within square brackets. It specifies the characters that will successfully match a single character from a given input string.
 
 \d         matches a single character that is a digit -> 
 \w         matches a word character (alphanumeric character plus underscore) -> 
@@ -74,6 +80,10 @@ a(?<foo>bc)     using ?<foo> we put a name to the group ->
 [^a-zA-Z]        a string that has not a letter from a to z or from A to Z. In this case the ^ is used as negation of the expression ->
 
 ### Greedy and Lazy Match
+
+'Greedy' means match longest possible string.
+
+'Lazy' means match shortest possible string.
 
 The quantifiers ( * + {}) are greedy operators, so they expand the match as far as they can through the provided text.
 
